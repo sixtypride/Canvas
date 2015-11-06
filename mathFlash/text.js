@@ -117,6 +117,7 @@ Paragraph = function (context, left, top, imageData, cursor) {
     this.activeLine = undefined;
     this.cursor = cursor;
     this.blinkingInterval = undefined;
+    console.log("aaa");
 };
 
 Paragraph.prototype = {
