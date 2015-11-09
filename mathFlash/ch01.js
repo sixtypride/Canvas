@@ -6,7 +6,6 @@ var isInc = true;
 
 function Ball()
 {
-    alert(this);
     this.radius = 10;
     this.color = 'rgba(' + (Math.random()*255).toFixed(0) + ', ' + (Math.random()*255).toFixed(0) + ', ' + (Math.random()*255).toFixed(0) + ', 1.0)';
     this.color = 'red';
